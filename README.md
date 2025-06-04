@@ -4,6 +4,11 @@
 
 ---
 
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&color=F71313&center=true&vCenter=true&width=900&height=80&lines=⚙️+SENTINELX+⚙️;🧠+By+Guardians+of+Code+🧠;💻+Automate+%7C+Build+%7C+Hack+%7C+Repeat+💻" />
+</h1>
+
+---
 ## Overview
 
 In a world where digital threats evolve every second, **SentinelX** stands as the ultimate line of defense. Powered by cutting-edge AI and machine learning, SentinelX doesn’t just respond to attacks — it predicts, adapts, and neutralizes them before they even happen.
