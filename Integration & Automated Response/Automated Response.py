@@ -13,5 +13,5 @@ def block_ip_address(ip_to_block):
         print("iptables command not found. Is it installed and in your PATH?")
 
 # When your AI determines an IP is malicious and needs blocking:
-# malicious_ip = "1.2.3.4"
+# malicious_ip = "1.2.3.4".   
 # block_ip_address(malicious_ip)
