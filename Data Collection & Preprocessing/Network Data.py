@@ -7,7 +7,7 @@ def extract_network_features(pcap_file):
     extracted_data = []
     for pkt in packets:
         # Check for IP layer, then TCP/UDP
-        if IP in pkt:
+        if IP in pkt:   
             source_ip = pkt[IP].src
             destination_ip = pkt[IP].dst
             protocol = pkt[IP].proto
