@@ -4,7 +4,7 @@ from scapy.all import rdpcap, IP, TCP, UDP
 packets = rdpcap("your_network_traffic.pcap")
 features = []
 
-for pkt in packets:
+for pkt in packets:  
     if IP in pkt:
         src_ip = pkt[IP].src
         dst_ip = pkt[IP].dst
