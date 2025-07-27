@@ -15,7 +15,7 @@ def parse_generic_log(log_line):
             'file': match.group(5)
         }
     return None
-
+  
 # Example usage:
 # with open("path/to/your/endpoint_log.txt", "r") as f:
 #     for line in f:
