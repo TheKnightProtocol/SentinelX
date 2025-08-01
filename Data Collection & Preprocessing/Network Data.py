@@ -2,7 +2,7 @@
 # You'd open it, iterate through packets, and pull out details.
 from scapy.all import rdpcap, IP, TCP, UDP
 
-def extract_network_features(pcap_file):
+def  extract_network_features(pcap_file):
     packets = rdpcap(pcap_file)
     extracted_data = []
     for pkt in packets:
