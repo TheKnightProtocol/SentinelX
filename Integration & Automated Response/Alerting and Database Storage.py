@@ -1,4 +1,4 @@
-# Imagine a function to connect to your database
+# Imagine a function to connect to your database   
 def save_alert_to_db(alert_details): 
     # This is highly conceptual. You'd use a database library like psycopg2 for PostgreSQL.
     # Example using a placeholder function: 
