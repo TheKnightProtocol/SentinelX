@@ -4,7 +4,7 @@ def fetch_threat_intel_report(indicator, api_key, api_endpoint):
     headers = {"x-api-key": api_key} # Or other authentication methods
     params = {"query": indicator} # Or other query parameters
    
-    try: 
+    try:     
         response = requests.get(api_endpoint, headers=headers, params=params)
         response.raise_for_status() # Raise an exception for HTTP errors
         return response.json()
