@@ -1,7 +1,7 @@
 # Example using scapy to read a PCAP and extract basic info
 from scapy.all import rdpcap, IP, TCP, UDP
  
-packets = rdpcap("your_network_traffic.pcap")
+packets =    rdpcap("your_network_traffic.pcap")
 features = []   
 
 for pkt in packets:   
