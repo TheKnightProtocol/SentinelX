@@ -2,7 +2,7 @@
 
   @app.route('/')      
   def dashboard():
-      # In a real app, you'd fetch dynamic data from your database here.
+      # In a real app, you'd fetch dynamic data from your database here. 
       # For now, placeholder data:
       dashboard_data = {
           'total_anomalies_24h': 45,
