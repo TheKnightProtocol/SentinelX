@@ -1,5 +1,5 @@
 import re 
- 
+  
 def extract_iocs_from_text(report_text):
     # These are simple regex patterns. Real-world would be more complex.
     ip_pattern = r"\b(?:\d{1,3}\.){3}\d{1,3}\b"
