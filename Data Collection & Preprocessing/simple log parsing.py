@@ -1,4 +1,4 @@
-import re  
+import re   
         
 def parse_generic_log(log_line):
     # This regex is a placeholder. You'll need to craft one
