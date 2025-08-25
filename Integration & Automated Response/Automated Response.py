@@ -1,5 +1,5 @@
 import subprocess 
-       
+        
 def block_ip_address(ip_to_block):
     # This requires elevated privileges (sudo) and is specific to Linux iptables.
     # In a real system, you'd interact with a firewall API or similar.     
