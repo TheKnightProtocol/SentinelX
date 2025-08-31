@@ -1,4 +1,4 @@
-import numpy as np     
+import numpy as np      
     
 def detect_process_activity_anomaly(historical_counts, current_count, std_dev_multiplier=3):
     # This is a very simple statistical approach. ML models would be more robust.
