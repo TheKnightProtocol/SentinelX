@@ -1,4 +1,4 @@
-import re     
+import re      
   
 def extract_iocs_from_text(report_text):
     # These are simple regex patterns. Real-world would be more complex.
