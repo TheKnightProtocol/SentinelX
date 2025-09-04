@@ -1,5 +1,5 @@
 import re    
-        
+         
 def parse_generic_log(log_line):
     # This regex is a placeholder. You'll need to craft one
     # specific to the log format you're parsing (e.g., Sysmon, Apache, etc.).
