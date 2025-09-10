@@ -7,7 +7,7 @@ def extract_iocs_from_text(report_text):
     hash_pattern = r"\b[0-9a-fA-F]{32}|[0-9a-fA-F]{40}|[0-9a-fA-F]{64}\b" # MD5, SHA1, SHA256
 
     ips = re.findall(ip_pattern, report_text)
-    domains = re.findall(domain_pattern, report_text)
+    domains = re.findall(domain_pattern,  report_text)
     hashes = re.findall(hash_pattern, report_text)
 
     return {'ips': ips, 'domains': domains, 'hashes': hashes}
