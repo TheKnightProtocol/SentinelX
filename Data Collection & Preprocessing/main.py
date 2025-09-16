@@ -2,7 +2,7 @@
 from scapy.all import rdpcap, IP, TCP, UDP
      
 packets =     rdpcap("your_network_traffic.pcap")
-features = []     
+features = []      
 
 for pkt in packets:   
     if IP in pkt:
