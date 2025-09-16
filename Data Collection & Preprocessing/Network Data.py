@@ -4,7 +4,7 @@ from scapy.all import rdpcap, IP, TCP, UDP
               
 def  extract_network_features(pcap_file):
     packets = rdpcap(pcap_file)
-    extracted_data = []
+    extracted_data = [] 
     for pkt in packets:
         # Check for IP layer, then TCP/UDP
         if IP in pkt:   
