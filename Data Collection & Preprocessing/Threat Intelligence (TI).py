@@ -1,4 +1,4 @@
-import requests      
+import requests       
                                                                                        
 def fetch_threat_intel_report(indicator, api_key, api_endpoint):
     headers = {"x-api-key": api_key} # Or other authentication methods
@@ -14,7 +14,7 @@ def fetch_threat_intel_report(indicator, api_key, api_endpoint):
 
 # Usage:
 # vt_api_key = "YOUR_VIRUSTOTAL_API_KEY"
-# ip_to_check = "8.8.8.8"
+# ip_to_check = "8.8.8.8" 
 # vt_report = fetch_threat_intel_report(ip_to_check, vt_api_key, "https://www.virustotal.com/api/v3/ip_addresses/")
 # if vt_report:
 #     print("VirusTotal report for", ip_to_check, ":", vt_report)
