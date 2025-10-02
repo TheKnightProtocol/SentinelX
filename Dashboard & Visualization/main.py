@@ -1,5 +1,5 @@
   app = Flask(__name__)      
-     
+      
   @app.route('/')        
   def dashboard():
       # In a real app, you'd fetch dynamic data from your database here. 
