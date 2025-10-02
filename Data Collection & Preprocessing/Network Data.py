@@ -1,4 +1,4 @@
-# Imagine 'network_capture.pcap'  holds your network traffic 
+# Imagine 'network_capture.pcap'  holds your network traffic  
 # You'd open it, iterate through packets, and pull out details.
 from scapy.all import rdpcap, IP, TCP, UDP      
                
