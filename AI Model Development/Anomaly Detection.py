@@ -1,6 +1,6 @@
 import pandas as pd         
       
-    def    train_anomaly_detector(feature_dataframe):
+    def     train_anomaly_detector(feature_dataframe):
         # Ensure your dataframe contains only numerical features
         scaler = StandardScaler()
         scaled_features = scaler.fit_transform(feature_dataframe)
